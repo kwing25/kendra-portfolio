@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kendra Wing – Personal Portfolio
 
-## Getting Started
+This repository contains the source code for my personal developer portfolio.  
+It showcases selected projects, skills, and writing, with a focus on frontend development, usability, and real-world problem solving.
 
-First, run the development server:
+🔗 **Live site:** (link)  
+📄 **Resume:** (link)
+
+---
+
+## About This Portfolio
+
+I built this portfolio as a clean, focused space to present my work as a developer.  
+Rather than listing everything I’ve ever touched, the goal is to highlight:
+
+- Projects that demonstrate practical problem solving
+- Thoughtful UI and user experience decisions
+- Clear, maintainable code
+- My interests in accessibility, performance, and developer experience
+
+This site is intentionally simple, fast, and content-driven.
+
+---
+
+## Featured Content
+
+The portfolio includes:
+- **Selected projects** with short case studies (problem, approach, outcomes)
+- **Technical writing** and community-focused work
+- A concise overview of my **skills and background**
+- Clear ways to **get in touch**
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Styling:** Tailwind CSS
+- **Framework:** Gatsby
+- **Content:** Markdown / MDX
+- **Tooling:** Git, GitHub
+
+---
+
+## Getting Started (Local Development)
+
+Clone the repo and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/kwing25/kendra-portfolio.git
+cd kendra-portfolio
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run develop
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site will be available at http://localhost:8000.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Goals & Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Planned improvements include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Additional project case studies
+- Improved accessibility and performance audits
+- Expanded writing section
+- Design refinements as the site evolves
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I’m currently open to frontend or full-stack opportunities and collaborations.
+
+- Email: [kendrawingpro@icloud.com](mailto:kendrawingpro@icloud.com)
+- LinkedIn: [kendrawing](https://linkedin.com/in/kendrawing)
+- GitHub: [kwing25](https://github.com/kwing25)
+
+<br />
+
+<i>© Kendra Wing 2026. All rights reserved.</i>
