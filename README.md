@@ -1,12 +1,20 @@
 # Kendra Wing – Personal Portfolio
 
-This repository contains the source code for my personal developer portfolio.  
-It showcases selected projects, skills, and writing, with a focus on frontend development, usability, and real-world problem solving.
-
 🔗 **Live site:** (link)  
 📄 **Resume:** (link)
 
----
+## TOC
+- [Kendra Wing – Personal Portfolio](#kendra-wing--personal-portfolio)
+  - [TOC](#toc)
+  - [About This Portfolio](#about-this-portfolio)
+    - [Repo Structure](#repo-structure)
+  - [Featured Content](#featured-content)
+  - [Tech Stack](#tech-stack)
+  - [Getting Started (Local Development)](#getting-started-local-development)
+  - [Goals \& Roadmap](#goals--roadmap)
+  - [Contact](#contact)
+  - [Resources](#resources)
+
 
 ## About This Portfolio
 
@@ -20,6 +28,38 @@ Rather than listing everything I’ve ever touched, the goal is to highlight:
 
 This site is intentionally simple, fast, and content-driven.
 
+### Repo Structure
+```
+kendra-portfolio/
+├── .DS_Store
+├── .gitignore
+├── LICENSE
+├── README.md
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── index.ts
+│       └── local-time.tsx
+└── tsconfig.json
+```
+
+
 ---
 
 ## Featured Content
@@ -30,7 +70,6 @@ The portfolio includes:
 - A concise overview of my **skills and background**
 - Clear ways to **get in touch**
 
----
 
 ## Tech Stack
 
@@ -39,8 +78,6 @@ The portfolio includes:
 - **Framework:** Gatsby
 - **Content:** Markdown / MDX
 - **Tooling:** Git, GitHub
-
----
 
 ## Getting Started (Local Development)
 
@@ -60,7 +97,6 @@ npm run develop
 
 The site will be available at http://localhost:8000.
 
----
 
 ## Goals & Roadmap
 
@@ -71,7 +107,6 @@ Planned improvements include:
 - Expanded writing section
 - Design refinements as the site evolves
 
----
 
 ## Contact
 
@@ -81,6 +116,10 @@ I’m currently open to frontend or full-stack opportunities and collaborations.
 - LinkedIn: [kendrawing](https://linkedin.com/in/kendrawing)
 - GitHub: [kwing25](https://github.com/kwing25)
 
+
+## Resources
+- [GitHub File Tree Visualizer](https://www.readmecodegen.com/file-tree/github-file-tree-visualizer)
+- 
 <br />
 
 <i>© Kendra Wing 2026. All rights reserved.</i>
