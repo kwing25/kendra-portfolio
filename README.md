@@ -49,14 +49,23 @@ kendra-portfolio/
 │   └── window.svg
 ├── src/
 │   ├── app/
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   ├── contact/
+│   │   │   └── page.tsx
 │   │   ├── favicon.ico
 │   │   ├── globals.css
 │   │   ├── layout.tsx
-│   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   └── projects/
+│   │       └── page.tsx
 │   └── components/
-│       ├── index.ts
-│       └── local-time.tsx
+│       ├── Footer.tsx
+│       ├── Hero.tsx
+│       ├── Nav.tsx
+│       └── index.ts
 └── tsconfig.json
+
 ```
 
 
