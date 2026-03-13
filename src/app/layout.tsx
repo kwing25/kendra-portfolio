@@ -1,6 +1,10 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
+import AboutPage from "./about/page";
+import ProjectsPage from "./projects/page";
+import ContactPage from "./contact/page";
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -71,6 +75,14 @@ export default function RootLayout({
       >
         <Nav />
         {children}
+
+        <div className="px-4 py-8 max-w-5xl mx-auto">
+
+
+          <AboutPage />
+          <ProjectsPage />
+          <ContactPage />
+        </div>
         <Footer />
       </body>
     </html>
